@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*global*/
+* {
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    background: url(assets/one-person-hiking-mountain-peak-admiring-milky-way-galaxy-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'poppins', sans-serif;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    height: 82px;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+ 
+/*navigation*/
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    color: rgb(241, 246, 249);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.navigation  {
+    display: flex;
+  
+}
+
+.navigation li {
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.navigation a {
+
+    color: rgb(241, 246, 249);
+    border-radius: 7px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #5fe36a;
+}
+
+/* Button */
+.navigation .btn {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(241, 246, 249);
+    padding: 5px 16px;
+    border: 1px solid #5fe36a;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    font-weight: bold;
+
+    }
+
+    .navigation .btn:hover {
+        background-color: #5fe36a;
+        color:rgb(241, 246, 249);
+    } 
+    
+/*section */ 
+
+
+main {
+
+    height: 100vh;
+}
+
+section {
+    height: 100%;
+    position: relative;
+
+}
+
+.interface {
+    display: flex;
+    
+
+
+}
+
+
+.left-card {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 24px;
+    text-align: center;
+    position: absolute;
+    bottom: 230px;
+    align-items: center;
+  
+
+}
+
+h3{
+  color: rgb(241, 246, 249);
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 3;
+
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgb(241, 246, 249);
+    line-height: 1.1;
+
+}
+
+/*button btn-new */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    padding: 0px 15px;
+    border: 2px solid #5fe36a;
+    border-radius: 7px;
+    margin-top: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #5fe36a;
+    color: rgb(241, 246, 249);
+}
+
+
+.button .btn-new {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(241, 246, 249);
+    font-size: 14px;
+    font-weight: bold;
+}
+
